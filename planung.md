@@ -40,7 +40,7 @@ Die Abgabe der `planung.md` ist am **Mittwoch bis spätestens 13:00 Uhr** vorges
 
 ---
 
-## Werkzeuge
+🔧 Werkzeuge
 
 - **Qt Designer** (UI-Erstellung, Aufruf über `pyside6-designer`)
 - **Python 3.x mit PySide6**
@@ -51,7 +51,7 @@ Die Abgabe der `planung.md` ist am **Mittwoch bis spätestens 13:00 Uhr** vorges
 
 ---
 
-## Erwartete Herausforderungen
+⚠️ Erwartete Herausforderungen
 
 | **Bereich**               | **Mögliche Schwierigkeit**                                                   |
 |---------------------------|------------------------------------------------------------------------------|
@@ -63,7 +63,7 @@ Die Abgabe der `planung.md` ist am **Mittwoch bis spätestens 13:00 Uhr** vorges
 
 ---
 
-## Pufferzeiten und Priorisierung
+⏳ Pufferzeiten und Priorisierung
 
 - **20–25 % Pufferzeit** je Phase (z. B. 30 Minuten Reserve bei GUI oder Code)
 - **Gesamtpuffer:** ca. 3 Stunden auf drei Tage verteilt
@@ -77,7 +77,7 @@ Die Abgabe der `planung.md` ist am **Mittwoch bis spätestens 13:00 Uhr** vorges
 
 ---
 
-## Erweiterungsideen (Bonus)
+🌟 Erweiterungsideen (Bonus)
 
 Wenn Zeit übrig bleibt, plane ich folgende optionale Features ein:
 
