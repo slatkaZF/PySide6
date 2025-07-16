@@ -18,16 +18,16 @@ Die Abgabe der `planung.md` ist am **Mittwoch bis spätestens 13:00 Uhr** vorges
 
 | **Meilenstein**             | **Beschreibung**                                                            | **Frist**                            |
 |----------------------------|-----------------------------------------------------------------------------|--------------------------------------|
-| Projektplanung abschließen | `planung.md` finalisieren und abgeben                                       | Mittwoch, 16.07.2025, bis 13:00 Uhr  |
-| GUI-Design                 | GUI mit Qt Designer erstellen und `.ui`-Datei speichern                      | Mittwoch, 16.07.2025, bis 15:00 Uhr  |
-| Code-Implementierung       | Python-Projektstruktur aufsetzen, `.ui` laden, Logik implementieren         | Donnerstag, 17.07.2025, bis 14:00 Uhr |
-| Dokumentation              | `README.md` schreiben und Projektstruktur erläutern                         | Donnerstag, 17.07.2025, bis 15:00 Uhr |
-| Bildschirm-Video           | Projekt demonstrieren, aufnehmen und kommentieren                            | Freitag, 18.07.2025, bis 13:00 Uhr    |
-| Finalisierung & Abgabe     | Letzte Tests, ZIP-Erstellung, Upload                                         | Freitag, 18.07.2025, bis 15:00 Uhr    |
+|📝 Projektplanung abschließen | `planung.md` finalisieren und abgeben                                       | Mittwoch, 16.07.2025, bis 13:00 Uhr  |
+|🎨GUI-Design                 | GUI mit Qt Designer erstellen und `.ui`-Datei speichern                      | Mittwoch, 16.07.2025, bis 15:00 Uhr  |
+|⚙️ Code-Implementierung       | Python-Projektstruktur aufsetzen, `.ui` laden, Logik implementieren         | Donnerstag, 17.07.2025, bis 14:00 Uhr |
+|📓 Dokumentation              | `README.md` schreiben und Projektstruktur erläutern                         | Donnerstag, 17.07.2025, bis 15:00 Uhr |
+|🎥 Bildschirm-Video           | Projekt demonstrieren, aufnehmen und kommentieren                            | Freitag, 18.07.2025, bis 13:00 Uhr    |
+|✨ Finalisierung & Abgabe     | Letzte Tests, ZIP-Erstellung, Upload                                         | Freitag, 18.07.2025, bis 15:00 Uhr    |
 
 ---
 
-## Geplante Teillaufzeiten
+##📅 Geplante Teillaufzeiten
 
 | **Teilaufgabe**                         | **Zeitaufwand (geschätzt)**    | **Geplanter Zeitraum**                                |
 |----------------------------------------|-------------------------------|--------------------------------------------------------|
