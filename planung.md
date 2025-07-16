@@ -27,7 +27,7 @@ Die Abgabe der `planung.md` ist am **Mittwoch bis spätestens 13:00 Uhr** vorges
 
 ---
 
-##📅 Geplante Teillaufzeiten
+📅 Geplante Teillaufzeiten
 
 | **Teilaufgabe**                         | **Zeitaufwand (geschätzt)**    | **Geplanter Zeitraum**                                |
 |----------------------------------------|-------------------------------|--------------------------------------------------------|
