@@ -90,6 +90,6 @@ Wenn Zeit übrig bleibt, plane ich folgende optionale Features ein:
 
 ---
 
-## Fazit
+## Fazit - PySide6
 
 Dieses Projekt verbindet alle wesentlichen Phasen professioneller GUI-Entwicklung: Planung, Gestaltung, Implementierung, Dokumentation und Präsentation. Die entstehende Vorlage ist technisch klar strukturiert, modular aufgebaut und bietet langfristigen Nutzen für weitere Python-basierte Anwendungen.
