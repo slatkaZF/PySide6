@@ -235,3 +235,5 @@ Diese Befehle decken die gesamte Entwicklung ab: Installation, Design-Bearbeitun
 - API: Fehlerbehandlung mit QMessageBox implementiert; Key-Anleitung hinzugefügt. Tests mit Städten wie "Berlin" für Validierung.
 
 Das Projekt ist nun robust und erweiterbar. Frühe Fertigstellung ermöglichte die Bonusaufgabe (Wetter-App).
+
+API KEY 1017f01b8e1a6fb569bfd12c4715f5c0
