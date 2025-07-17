@@ -1,58 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>671</width>
-    <height>539</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>GUI-Vorlage</string>
-  </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>140</y>
-      <width>118</width>
-      <height>46</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
-     <item>
-      <widget class="QLineEdit" name="inputField">
-       <property name="placeholderText">
-        <string>Eingabe hier eingeben</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="outputField">
-       <property name="text">
-        <string>Ausgabe hier</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>671</width>
-     <height>33</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
- </widget>
- <resources/>
- <connections/>
-</ui>
+import sys
+from PySide6.QtWidgets import QApplication, QMainWindow
+from ui_weather_app import Ui_MainWindow  # Importiert deine UI-Klasse
+from controller import WeatherController  # Später erstellen
+
+class WeatherApp(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
+        self.controller = WeatherController(self.ui)
+        
+        # Verbinde den Button mit der Funktion im Controller
+        self.ui.weather_button.clicked.connect(self.controller.get_weather)
+        
+        # Farbverlauf und zusätzliche Styles (ergänzt deine UI-Styles)
+        self.setStyleSheet("""
+            QMainWindow {
+                background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
+                    stop: 0 #FFC1CC, stop: 1 #D81B60);
+            }
+            QPushButton {
+                background-color: #FF6F91;
+                color: #FFFFFF;
+                border: 2px solid #D81B60;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            QLineEdit {
+                background-color: #FFE4E6;
+                color: #D81B60;
+                border: 2px solid #FF6F91;
+                border-radius: 5px;
+                padding: 2px;
+            }
+            QLabel {
+                color: #D81B60;
+                font-size: 14px;
+            }
+        """)
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = WeatherApp()
+    window.show()
+    sys.exit(app.exec())
