@@ -4,7 +4,7 @@ from PySide6.QtWidgets import QMessageBox
 class WeatherController:
     def __init__(self, ui):
         self.ui = ui
-        self.api_key = "1017f01b8e1a6fb569bfd12c4715f5c0"  # Ersetze mit deinem OpenWeatherMap API-Key
+        self.api_key = "1017f01b8e1a6fb569bfd12c4715f5c0" 
         self.base_url = "http://api.openweathermap.org/data/2.5/weather"
 
     def get_weather(self):
@@ -16,8 +16,8 @@ class WeatherController:
         params = {
             "q": city,
             "appid": self.api_key,
-            "units": "metric",  # Für Celsius
-            "lang": "de"        # Für deutsche Beschreibungen
+            "units": "metric",  
+            "lang": "de"       
         }
 
         try:
@@ -30,7 +30,7 @@ class WeatherController:
             description = data["weather"][0]["description"]
             humidity = data["main"]["humidity"]
 
-            # GUI aktualisieren (passt zu deinen Label-Namen)
+            
             self.ui.temperature_label.setText(f"Temperatur: {temperature} °C")
             self.ui.description_label.setText(f"Wetter: {description}")
             self.ui.humidity_label.setText(f"Luftfeuchtigkeit: {humidity}%")
