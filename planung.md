@@ -87,6 +87,7 @@ Wenn Zeit übrig bleibt, plane ich folgende optionale Features ein:
 - **Clear-Button** zum Zurücksetzen aller Felder
 - **Dropdown (QComboBox)** mit vordefinierten Optionen
 - **Exportfunktion**: Eingabe in `.txt` speichern
+- **Bonusprojekt: Mini-Wetter-App mit API**: Nach Fertigstellung der Basisvorlage wird eine Erweiterung zu einer Wetter-App geplant, die eine API (z. B. OpenWeatherMap) integriert, um reale Wetterdaten abzurufen und anzuzeigen. Dies dient als praktisches Beispiel für die Wiederverwendbarkeit der Vorlage und wird bei früher Fertigstellung umgesetzt.
 
 ---
 
